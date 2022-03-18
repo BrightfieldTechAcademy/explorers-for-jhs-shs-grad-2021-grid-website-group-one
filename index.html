@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Responsive Site</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .box1 {
+            background-image: url("images/box.jpg");
+            color: white;
+            text-align: center;
+            height: 300px;
+            background-color: re;
+            
+            font-size: 1.5em;
+            padding: 70px;
+            display: block;
+            opacity: 1;
+            
+            
+        }
+         .read:link, .read:visited {
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            height: 1.5cm;
+            width: 3.5cm;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+         .read:hover, .read:active {
+            background-color: white;
+            color: white;
+        }
+       
+
+        .box2 {
+            text-align: center;
+            font-size: 20px;
+            display: grid;
+            grid-template-columns: auto auto;
+            height: 150px;
+            padding-bottom: 30px;
+        }
+
+        
+        
+
+        .box3 { 
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+            background-color: black;
+            font-size: 20px;
+            
+            padding: 20px;
+            border-left: 100px;
+        }
+
+        .page {
+            background-color: white;
+            color: black;
+        }
+
+        #bold {
+            text-align: center;
+            font-size: 20px;
+            height: 200px;
+            
+            font-size: 30px;
+           
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 20px;
+            font-size: 21px;
+            color: white;
+            
+            
+            
+        }
+         .page1 {
+             background-color: cornflowerblue;
+             text-align: center;
+             padding: 20px;
+             height: 300px;
+             width: 100%;
+         }
+
+         .page2  {
+             background-color: darkslategrey;
+             padding: 20px;
+             height: 300px;
+             text-align: center;
+             width: 100%;
+             padding-right: 50px;
+            
+         }
+
+         #grid-container {
+             display: grid;
+             grid-template-columns: auto auto;
+             text-align: center;
+             color: white;
+             height: 200px;
+             font-size: 30px;
+             padding-top: 25px;
+             background-color: black;
+             width: 100%;
+         }
+
+         .one {
+             color: blue;
+         }
+
+         .image {
+             height: 5cm;
+         }
+
+         .box4 {
+            background-color: whitesmoke;
+           padding-top: 20px;
+           
+         }
+         .two {
+             background-color: white;
+         }
+         
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <h1>Welcome to Acme Web Solutions</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum fugiat modi dignissimos <br>deleniti? Necessitatibus nisi ab molestias quis!
+        <br>
+        <a href="https://jolly-kalam-23776e.netlify.app/cssgridresponsive/?fbclid=IwAR0QAikCXLfaiRaOLuKU4iSh6BwPEGVUiR8Z7Nq0hOXugWAVsBvUuhm1bbc#section-b" class="read">Read more</a><br><br>
+    </div>
+    <div class="box4">
+        <h1>Web & Application Development</h1><br> 
+        <div class="box2"> 
+        <div><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Perferendis, dolor maxime. Modi tempora quibusdam facere<br> tempore iusto laborum perspiciatis? Voluptatum.</p>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Earum pariatur quis similique sunt beatae enim quas<br> nemo sint nihil omnis!</p></td>
+      </div>
+    </div>
+    </div>
+    <div class="box3">
+            <div style="background-color: white;">
+                 <img src="../New folder (2)/images/lap.jpg" class="two"><br>
+                <h2>Web Development</h2><br>
+                <p>Lorem ipsum dolor sit amee consectetur adipisicing elit. Perferendis aliquam vero nisi praesentium earum vel temporibus a quidem minima est!</p>
+            </div>
+            
+            <div style="background-color: white;">
+                <img src="../New folder (2)/images/mobile.jpg" alt="Image of mobile"><br>
+                    
+                   <h2>Mobile Application</h2><br>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat quis nam maiores error explicabo sint, consequatur laborum itaque veritatis.</p><br>
+            </div>    
+            
+             <div style="background-color: white;">
+                <img src="../New folder (2)/images/tech.jpg" alt="image of Tech" class="image"><br>
+                    <h2>Tech Marketing</h2><br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta mollitia quos repudiandae, consequuntur dolorem impeditquas quo fugit autem nemo?</p>
+            </div>
+    </div>
+    <div id="bold">
+        <h2>We handle all of your digital neeeds</h2>
+        <p style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque asperiores maiores praesentium quo voluptate voluptatum laborum <br>doloribus voluptatem. Velit, minima doloribus.</p>
+    </div>
+    <div class="grid-container">
+       <div class="page1"><h1>Contact Us</h1><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt at impedit velit, ea similique consectetur<br> fugiat. Velit vitae recusandae in?
+        <br><br>contact@acmewebsolutions.test</div>
+    
+      <div class="page2"><h1>About Our Company</h1><br>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque voluptatum assumenda necessitatibus repellat<br> odio dolores dolore illum reiciendis libero, consequatur itaque doloribus aperiam. Repellendus<br> earum ea nisi nam, neque magnam.</p> 
+      </div>
+    </div> 
+ 
+    <div id="grid-container">
+        <div> Web Solutions</div>
+    <div >Project By <a href="https://traversymedia.com/">Traversy Media</a></div>
+    </div>
+    
+</body>
+</html>
